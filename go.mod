@@ -1,6 +1,6 @@
 module kscan
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/atotto/clipboard v0.1.4
@@ -27,10 +27,10 @@ require (
 	//protocol
 	github.com/stacktitan/smb v0.0.0-20190531122847-da9a425dceb8
 	go.mongodb.org/mongo-driver v1.7.1
-	golang.org/x/crypto v0.35.0
+	golang.org/x/crypto v0.36.0
 
 	//chinese
-	golang.org/x/text v0.22.0
+	golang.org/x/text v0.23.0
 )
 
 require (
@@ -49,9 +49,9 @@ require (
 	github.com/xdg-go/stringprep v1.0.2 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
 	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 )
 
